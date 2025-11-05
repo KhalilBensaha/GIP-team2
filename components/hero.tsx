@@ -9,14 +9,13 @@ export default function Hero() {
           <div className="space-y-6">
             <div className="flex items-center gap-2 text-sm text-blue-600 font-semibold">
               <div className="w-3 h-3 bg-blue-500 rounded-full" />
-              Powered by GOS
+              Powered by GDG
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-              Build Your GOS Portfolio in <span className="text-blue-600">Minutes</span>
+              Build Your GDG Portfolio in <span className="text-blue-600">Minutes</span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-md">
-              Generate a professional, customizable GOS record portfolio within minutes. Showcase your achievements with
-              style.
+              Generate a professional, customizable GDG-styled portfolio instantly. Showcase your projects, skills, and achievements with ease.
             </p>
             <div className="flex gap-3 pt-4">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
@@ -27,9 +26,21 @@ export default function Hero() {
               </Button>
             </div>
             <div className="flex gap-8 pt-4 text-sm text-muted-foreground">
-              <div>✓ Free to use</div>
-              <div>⚡ 5x faster loading</div>
-            </div>
+              <div className="flex items-center gap-2">
+                <span
+                  className="inline-block w-2 h-2 bg-emerald-500 rounded-full"
+                  aria-hidden="true"
+                />
+                <span>Free to use</span>
+              </div>
+              <div>
+                <span
+                  className="inline-block w-2 h-2 bg-yellow-500 rounded-full"
+                  aria-hidden="true"
+                />
+                <span>No coding needed</span>
+              </div>
+              </div>
           </div>
 
           {/* Hero Image */}

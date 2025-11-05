@@ -6,13 +6,13 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
-            <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-6">About GOS Portfolio Generator</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-6">About GDG Portfolio Generator</h2>
             <p className="text-lg text-muted-foreground mb-4">
-              Empowering GOS members to build and showcase their professional journey with tools designed for
+              Empowering GDG members to build and showcase their professional journey with tools designed for
               simplicity, consistency, and capability.
             </p>
             <p className="text-muted-foreground">
-              Our platform simplifies portfolio creation for GOS members by providing a set of tools that ensure each
+              Our platform simplifies portfolio creation for GDG members by providing a set of tools that ensure each
               member's portfolio looks professionally polished without the hassle of coding from scratch.
             </p>
           </div>
