@@ -10,11 +10,15 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-background border-b border-border">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 font-bold text-lg">
-          <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-orange-400 rounded flex items-center justify-center text-white text-xs font-bold">
-            GDG
+        <Link href="/" className="flex items-center gap-3 font-bold text-lg">
+          <div className="flex items-center gap-1">
+            {/* Four SVG bars placed in public/ as requested. If your filenames differ, update the src values accordingly. */}
+            <img src="/blue.svg" alt="" className="w-2 h-6" />
+            <img src="/red.svg" alt="" className="w-2 h-6" />
+            <img src="/green.svg" alt="" className="w-2 h-6" />
+            <img src="/yellow.svg" alt="" className="w-2 h-6" />
           </div>
-          <span className="hidden sm:inline">Portfolio Generator</span>
+          <span className="hidden sm:inline">GDG Portfolio Generator</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -31,8 +35,8 @@ export default function Header() {
           <Link href="#faq" className="text-foreground hover:text-primary transition-colors">
             FAQ
           </Link>
-          <Button variant="outline" size="sm">
-            Login
+          <Button variant="outline" size="sm" asChild>
+            <Link href="/login">Login</Link>
           </Button>
         </div>
 

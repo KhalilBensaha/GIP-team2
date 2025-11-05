@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Hero() {
   return (
@@ -18,11 +19,11 @@ export default function Hero() {
               Generate a professional, customizable GDG-styled portfolio instantly. Showcase your projects, skills, and achievements with ease.
             </p>
             <div className="flex gap-3 pt-4">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                Get Started
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700" asChild>
+                <Link href="/get-started">Get Started</Link>
               </Button>
-              <Button size="lg" variant="outline">
-                Learn More
+              <Button size="lg" variant="outline" asChild>
+                <Link href="/learn-more">Learn More</Link>
               </Button>
             </div>
             <div className="flex gap-8 pt-4 text-sm text-muted-foreground">
@@ -38,7 +39,7 @@ export default function Hero() {
                   className="inline-block w-2 h-2 bg-yellow-500 rounded-full"
                   aria-hidden="true"
                 />
-                <span>No coding needed</span>
+                <span> No coding needed</span>
               </div>
               </div>
           </div>
