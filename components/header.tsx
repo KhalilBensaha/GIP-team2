@@ -12,7 +12,7 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg">
           <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-orange-400 rounded flex items-center justify-center text-white text-xs font-bold">
-            GOS
+            GDG
           </div>
           <span className="hidden sm:inline">Portfolio Generator</span>
         </Link>
