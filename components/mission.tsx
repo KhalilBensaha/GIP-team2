@@ -28,10 +28,10 @@ const missions = [
 
 export default function Mission() {
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-50 to-blue-100/50">
+    <section className="py-20 bg-gradient-to-br from-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <span className="text-sm font-semibold text-blue-600 uppercase tracking-wide">Our Mission</span>
+          <span className="text-sm font-semibold text-blue-600 uppercase tracking-wide p-1  bg-blue-100 rounded-2xl">Our Mission</span>
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mt-3 mb-4">What We Aim To Achieve</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Our platform is built with clear objectives to empower the GOS community and help every member reach their

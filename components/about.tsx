@@ -17,7 +17,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="order-1 lg:order-2 relative h-96 lg:h-full min-h-96">
+          <div className="order-1 lg:order-2 relative h-96 rounded-2xl lg:h-full min-h-96 bg-white shadow-xl ring-1 ring-gray-100 ring-blue-50">
             <Image
               src="/team-collaboration-portfolio.jpg"
               alt="Team collaboration on portfolio building"
