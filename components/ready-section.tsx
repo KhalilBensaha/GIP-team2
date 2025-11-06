@@ -8,8 +8,10 @@ export default function ReadySection() {
         <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
           Join thousands of GOS members who have created their professional portfolios
         </p>
-        <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-          Create Portfolio Now
+        <Button size="lg" className="bg-blue-600 hover:bg-blue-700" asChild>
+          <a href="/builder">
+            Create Portfolio Now
+          </a>
         </Button>
       </div>
     </section>
