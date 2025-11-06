@@ -20,10 +20,10 @@ export default function Hero() {
             </p>
             <div className="flex gap-3 pt-4">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700" asChild>
-                <Link href="/get-started">Get Started</Link>
+                <Link href="/builder">Get Started</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <Link href="/learn-more">Learn More</Link>
+                <Link href="/">Learn More</Link>
               </Button>
             </div>
             <div className="flex gap-8 pt-4 text-sm text-muted-foreground">

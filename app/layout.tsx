@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   title: 'GOS Portfolio Generator - Build Your Portfolio in Minutes',
   description: 'Create a professional GOS portfolio customized for you. Easy, fast, and powerful portfolio generation for developers.',
   generator: 'GIP Team 2',
+  icons: {
+    icon: '/gdg-logo.png',
+    shortcut: '/gdg-logo.png',
+    apple: '/gdg-logo.png',
+  },
 }
 
 export default function RootLayout({
@@ -18,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />
