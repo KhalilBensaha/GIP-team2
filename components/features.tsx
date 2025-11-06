@@ -5,31 +5,31 @@ import { Card } from "@/components/ui/card"
 const features = [
   {
     id: 1,
-    icon: "⚡",
+    icon: "feature1.svg",
     title: "Easy Customization",
     description: "Personalize your portfolio with intuitive drag-and-drop controls",
-    color: "bg-blue-100 text-blue-600",
+    color: "bg-blue-500 text-blue-600 #4285F4",
   },
   {
     id: 2,
-    icon: "📋",
+    icon: "feature2.svg",
     title: "Multiple Templates",
     description: "Choose from professionally designed templates for every style",
-    color: "bg-red-100 text-red-600",
+    color: "bg-red-500 text-red-600",
   },
   {
     id: 3,
-    icon: "📤",
+    icon: "feature3.svg",
     title: "Export Options",
     description: "Download as PDF, JSON, or deploy directly to your site",
-    color: "bg-green-100 text-green-600",
+    color: "bg-green-500 text-green-600",
   },
   {
     id: 4,
-    icon: "💡",
+    icon: "feature4.svg",
     title: "Quick & Simple",
     description: "Get your portfolio live in minutes without any coding",
-    color: "bg-orange-100 text-orange-600",
+    color: "bg-orange-500 text-orange-600",
   },
 ]
 
@@ -48,7 +48,7 @@ export default function Features() {
           {features.map((feature) => (
             <Card key={feature.id} className="p-6 hover:shadow-lg transition-shadow">
               <div className={`w-12 h-12 ${feature.color} rounded-lg flex items-center justify-center mb-4 text-2xl`}>
-                {feature.icon}
+                <img src={`/${feature.icon}`} alt={feature.title} className="w-6 h-6" />
               </div>
               <h3 className="font-semibold text-lg mb-2">{feature.title}</h3>
               <p className="text-muted-foreground text-sm">{feature.description}</p>
