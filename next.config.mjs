@@ -6,6 +6,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-}
+  turbopack: {
+    root: "C:\\Users\\Moi\\GIP-team2", // Use absolute path with escaped backslashes
+  },
+};
 
-export default nextConfig
+export default nextConfig;
