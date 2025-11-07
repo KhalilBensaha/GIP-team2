@@ -7,7 +7,7 @@ const nextConfig = {
     unoptimized: true,
   },
   turbopack: {
-    root: "C:\\Users\\Moi\\GIP-team2", // Use absolute path with escaped backslashes
+    root: process.cwd(),
   },
 };
 
